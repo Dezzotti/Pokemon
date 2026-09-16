@@ -1,0 +1,36 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.charmander{
+    padding:16px;
+    border: 2px dashed rgb(241, 179, 9)
+}
+
+.charmander:hover {
+    background-color: rgb(241, 179, 9);
+    zoom: 1.25;
+}
+.squirtle{
+    padding:16px;
+    border: 2px dashed rgb(0, 149, 218)
+}
+
+.squirtle:hover {
+    background-color: rgb(0, 149, 218);
+    zoom: 1.25;
+}
+.bulbasaur{
+    padding:16px;
+    border: 2px dashed rgb(11, 231, 66)
+}
+
+.bulbasaur:hover {
+    background-color: rgb(11, 231, 61);
+    zoom: 1.25;
+}

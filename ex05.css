@@ -1,0 +1,49 @@
+#ex05 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+}
+
+#gengar{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.alakazam {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.haunter {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.gengar{
+    padding:40px;
+    border: 2px dashed rgb(129, 63, 190);
+}
+
+.gengar:hover {
+    background-color: rgb(129, 63, 190);
+    zoom: 1.25;
+}
+.alakazam{
+    padding:40px;
+    border: 2px dashed rgb(211, 3, 194)
+}
+
+.alakazam:hover {
+    background-color: rgb(211, 3, 194);
+    zoom: 1.25;
+}
+.haunter{
+    padding:40px;
+    border: 2px dashed rgb(83, 0, 94)
+}
+
+.haunter:hover {
+    background-color: rgb(83, 0, 94);
+    zoom: 1.25;
+}

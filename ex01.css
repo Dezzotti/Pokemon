@@ -1,0 +1,37 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.pikachu{
+    padding:16px;
+    border: 2px dashed rgb( 237, 201, 60)
+}
+
+.pikachu:hover {
+    background-color: rgb(237, 201, 60);
+    zoom: 1.25;
+}
+.meowth{
+    padding:16px;
+    border: 2px dashed rgb(117, 112, 88)
+}
+
+.meowth:hover {
+    background-color: rgb(117, 112, 88);
+    zoom: 1.25;
+}
+.psyduck{
+    padding:16px;
+    border: 2px dashed rgb(7, 165, 204)
+}
+
+.psyduck:hover {
+    background-color: rgb(7, 165, 204);
+    zoom: 1.25;
+}
+

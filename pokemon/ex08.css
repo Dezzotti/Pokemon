@@ -1,0 +1,48 @@
+#ex08{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+}
+.oddish {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+}
+
+.gloom {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.vileplume {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.oddish{
+    padding:40px;
+    border: 2px dashed rgb(7, 187, 16);
+}
+
+.oddish:hover {
+    background-color: rgb(7, 187, 16);
+    zoom: 1.25;
+}
+.gloom{
+    padding:40px;
+    border: 2px dashed rgb(34, 133, 59)
+}
+
+.gloom:hover {
+    background-color: rgb(34, 133, 59);
+    zoom: 1.25;
+}
+.vileplume{
+    padding:40px;
+    border: 2px dashed rgb(135, 2, 139)
+}
+
+.vileplume:hover {
+    background-color: rgb(135, 2, 139);
+    zoom: 1.25;
+}
